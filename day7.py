@@ -1,9 +1,7 @@
-
 with open("test_inp.txt", 'r') as file:
     lines = [line.strip() for line in file]
 with open("input.txt", 'r') as file:
     lines_real = [line.strip() for line in file]
-
 
 def parse(inp):
     vals = []
